@@ -1,5 +1,4 @@
 #Eureka Standalone Server
 eureka:   client:    register-with-eureka: false
     fetch-registry: false
-    service-url:      defaultZone: http://localhost:${eureka-server.port}/eureka/
-      
+    service-url:      defaultZone: ${eureka.client.service-url.defaultZone}
