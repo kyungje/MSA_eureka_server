@@ -5,4 +5,4 @@ spring:
     config:
       uri:  http://52.79.120.13:10001 
       name: config
-      profile: ${spring.profiles.active}    
+      profile: local
