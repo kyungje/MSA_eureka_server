@@ -1,3 +1,4 @@
+server:  port: ${eureka.server.port}
 #Eureka Standalone Server
 eureka:   client:    register-with-eureka: false
     fetch-registry: false
